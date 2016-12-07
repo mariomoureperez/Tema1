@@ -1,5 +1,5 @@
 <?php get_header();?>
-
+<h1>Hola Mundo</h1>
 <h1>MENU</h1>
 <?php wp_nav_menu(array('menu' => 'menu2'));?>
 

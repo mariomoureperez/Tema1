@@ -1,20 +1,42 @@
 #cabecera{
-    background-image:url(http://core0.staticworld.net/images/article/2014/04/windows-xp-bliss-start-screen-100259803-orig.jpg);
+    border-style: solid;
+    border-color: white;
+    
 }
 h1{
     text-align:center;
-    color:white;
+    color:black;
 }
+
 html{
-    background-color:lightblue;}
+        background-image: url(https://2.bp.blogspot.com/-5j5C5lzSi5I/VHSMynkJuVI/AAAAAAAAAfo/wnObVOIWMVg/s1600/Android-Lollipop-wallpapers.jpg);
+}
     
 #sidebar{
-    background-image: url(https://1.bp.blogspot.com/-f2TD2r3xlok/V8DakjdsuBI/AAAAAAAAjjw/uHHSVOjDxDcVhYVv3HfURUwV2KHec_t0gCLcB/s1600/hermosas%2Bpaisajes.jpg);
+    background-color: white;
+    margin-left: 80%;
+    
+    
+
 } 
 .widget-title{
-    margin-left: 85%
+     margin-left: 10%;
+     color:black;
 }
 #wp-calendar{
-   color: #ff4433;
-    margin-left: 75%
+   color: black;
+   
+    margin-left: 8%;
+}
+#main{
+    text-align: center;
+    color:black;
+    
+}
+.menu-menu2-container{
+    margin-left: 40%
+}
+#pie{
+    background-color:white;
+    color:black;
 }
