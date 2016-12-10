@@ -4,7 +4,7 @@
     
 }
 h1{
-    text-align:center;
+    
     color:black;
 }
 
@@ -12,13 +12,7 @@ html{
         background-image: url(https://2.bp.blogspot.com/-5j5C5lzSi5I/VHSMynkJuVI/AAAAAAAAAfo/wnObVOIWMVg/s1600/Android-Lollipop-wallpapers.jpg);
 }
     
-#sidebar{
-    background-color: white;
-    margin-left: 80%;
-    
-    
 
-} 
 .widget-title{
      margin-left: 10%;
      color:black;
@@ -29,14 +23,29 @@ html{
     margin-left: 8%;
 }
 #main{
-    text-align: center;
+   
     color:black;
     
 }
-.menu-menu2-container{
-    margin-left: 40%
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
+
+
 #pie{
     background-color:white;
     color:black;
+    width: 100%;
+    
 }
+#loop{
+    float:left;
+    width:70%;
+}
+#sidebar{
+    float:left;
+    width: 25%;
+}
+

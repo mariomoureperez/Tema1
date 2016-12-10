@@ -1,10 +1,13 @@
 <?php get_header();?>
+<div id="index" class="clearfix">
+<div id="loop">
 <h1>Hola Mundo</h1>
 <h1>MENU</h1>
 <?php wp_nav_menu(array('menu' => 'menu2'));?>
 
   <section id="main">
 <h1>ENTRADAS</h1>
+
 <?php 
 
 if (have_posts()){
@@ -24,10 +27,15 @@ the_post(); ?>
 }
 
 ?>
-</section> 
+</section>
+</div>
+<div id="sidebar2">
 <?php get_sidebar(); ?>
+</div>
+</div>
+<div id=pie>
 <?php get_footer(); ?> 
-    
+    </div>
 
 
   
