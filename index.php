@@ -34,6 +34,7 @@ the_post(); ?>
 </div>
 </div>
 <div id=pie>
+
 <?php get_footer(); ?> 
     </div>
 
